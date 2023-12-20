@@ -1,0 +1,35 @@
+{
+    "options": [
+        {
+            "id": 1,
+            "name": "value 1",
+            "value": 1
+        },
+        {
+            "id": 2,
+            "name": "value 2",
+            "value": 2
+        },
+        {
+            "id": 3,
+            "name": "value 3",
+            "value": 3,
+            "has_dropDown": true,
+            "msg": "Yeah everything is fine. Our next meeting tomorrow at 10.00 AM",
+            "has_images": [],
+            "has_files": [],
+            "datetime": "09:10 am",
+            "isReplied": 2
+        },
+        {
+            "id": 4,
+            "name": "value 4",
+            "value": 4
+        },
+        {
+            "id": 5,
+            "name": "value 5",
+            "value": 5
+        }
+    ]
+}
