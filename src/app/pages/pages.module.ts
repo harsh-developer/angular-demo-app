@@ -4,17 +4,25 @@ import { ConditionalSelectComponent } from './conditional-select/conditional-sel
 import { CommonModule } from '@angular/common';
 import { SelectComponent } from './select/select.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { GetCordinatesComponent } from './get-cordinates/get-cordinates.component';
+import { ApexChartComponent } from './apex-chart/apex-chart.component';
+import { NgApexchartsModule } from "ng-apexcharts";
+import { FormArrayComponent } from './form-array/form-array.component';
 
 @NgModule({
   declarations: [
     ConditionalSelectComponent,
-    SelectComponent
+    SelectComponent,
+    GetCordinatesComponent,
+    ApexChartComponent,
+    FormArrayComponent
   ],
   imports: [
     CommonModule,
     PagesRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgApexchartsModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

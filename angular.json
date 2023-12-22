@@ -32,7 +32,13 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/interact.min.js",
+              "src/assets/js/Sortable.js",
+              "src/assets/js/jquery-sortable.js",
+              "src/assets/js/JSONLoop.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -48,7 +54,14 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "optimization": {
+                "scripts": true,
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": false
+                }
+              }
             },
             "development": {
               "buildOptimizer": false,
@@ -95,7 +108,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery-ui-dist/jquery-ui.min.js",
+              "src/assets/js/JSONLoop.js"
+            ]
           }
         }
       }
