@@ -2,51 +2,63 @@
     "months": [
         {
             "id": 1,
-            "name": "January"
+            "name": "January",
+            "value": "JANUARY"
         },
         {
             "id": 2,
-            "name": "February"
+            "name": "February",
+            "value": "FEBRUARY"
         },
         {
             "id": 3,
-            "name": "March"
+            "name": "March",
+            "value": "MARCH"
         },
         {
             "id": 4,
-            "name": "April"
+            "name": "April",
+            "value": "APRIL"
         },
         {
             "id": 5,
-            "name": "May"
+            "name": "May",
+            "value": "MAY"
         },
         {
             "id": 6,
-            "name": "June"
+            "name": "June",
+            "value": "JUNE"
         },
         {
             "id": 7,
-            "name": "July"
+            "name": "July",
+            "value": "JULY"
         },
         {
             "id": 8,
-            "name": "August"
+            "name": "August",
+            "value": "AUGUST"
         },
         {
             "id": 9,
-            "name": "September"
+            "name": "September",
+            "value": "SEPTEMBER"
         },
         {
             "id": 10,
-            "name": "October"
+            "name": "October",
+            "value": "OCTOBER"
         },
         {
             "id": 11,
-            "name": "November"
+            "name": "November",
+            "value": "NOVEMBER"
         },
         {
             "id": 12,
-            "name": "December"
+            "name": "December",
+            "value": "DECEMBER"
         }
     ]
 }
